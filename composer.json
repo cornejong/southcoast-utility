@@ -1,0 +1,23 @@
+{
+  "name": "southcoast/utility",
+  "description": "A collection of Utility tools for PHP",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Corné de Jong | SouthCoast",
+      "email": "corne@southcoast.tech",
+      "homepage": "http://southcoast.tech",
+      "role": "Developer & Engineer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "SouthCoast\\Utility\\": "src/Utility/"
+    }
+  },
+  "minimum-stability": "stable"
+}
